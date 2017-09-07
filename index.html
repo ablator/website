@@ -78,21 +78,28 @@
         </p>
         <div class="row">
             <div class="col">
-        <h4>Controlled Rollout</h4>
+                <div class="card"><div class="card-body">
+        <h4 class="card-title">Controlled Rollout</h4>
         <p>
             <strong>You have 40.000 users.</strong> Do you want all of them to hit your server at once after that new
             update? If not, consider carefully and systematically releasing your new functionality with ablator.
         </p>
             </div>
+            </div>
+                </div>
             <div class="col">
+                <div class="card"><div class="card-body">
                 <h4>A/B Testing</h4>
                 <p>
                     <strong>Your new app design could go two, three, many tasty ways.</strong> Want to distribute each variant
                     among your users and see how they are doing? ablator keeps track which user gets which flavor.
                 </p>
             </div>
+                </div>
+            </div>
         </div>
-        <p>
+
+        <p class="mt-4 mb-3">
             It works like this:
         <ol>
             <li>You define your app's switchable functionalities in ablator.</li>
@@ -105,18 +112,58 @@
         As an administrator, you'll get a nice overview of what percentage of users has a
         functionality enabled. 😎
         </p>
-        <p class="mb-5 pb-5">
-            <a href="https://github.com/ablator/ablator/" class="btn btn-outline-primary btn-large">Check
+        <p class="mb-5 pb-5 mt-2">
+            <a href="http://ablator.space" class="btn btn-primary btn-lg mb-2">Register Now! It's free!</a>
+            <br>
+            <a href="https://github.com/ablator/ablator/" class="btn btn-outline-secondary">Check
                 it out on GitHub</a>
 
             <a href="https://twitter.com/ablator_io"
-               class="btn btn-outline-secondary btn-large">Follow <strong>@ablator_io</strong> on
+               class="btn btn-outline-secondary">Follow <strong>@ablator_io</strong> on
                 Twitter</a>
         </p>
     </section>
 
     <section>
-        <h2>You can access ablator from your App</h2>
+        <h2>Try It Out <span class="badge badge-success">BETA</span></h2>
+        <p class="lead">For free even!</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    <strong>Ablator is in an extenden Beta period where the service is fully usable, but the
+                    UI is a bit rough around the edges.</strong> To iron everything out, and to let you
+                    <a href="http://ablator.space/">fearlessly try it without any commitment</a>, you can use the hosted version of
+                    ablator completely free of charge.
+                </p>
+                <p>
+                    The software will always be open-source, and you will always be able to
+                    self-host it for free.
+                </p>
+                <p>
+                    If you choose to use hosted ablator in the beta period, and want to switch to
+                    self-hosted at a later point, we'll do our best to help you migrate your data.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-white bg-dark">
+                    <div class="card-body">
+                        <h4 class="card-title">Come to Space!</h4>
+                        <p class="card-text">
+                            The hosted version of ablator is at <a href="http://ablator.space"
+                                                                   class="text-white">ablator.space</a>!
+                            You should try it out and then tell us how you like it! Your feedback is awesome!
+                        </p>
+                        <a href="http://ablator.space/" class="btn btn-primary">Register at ablator.space <span class="badge badge-success">BETA</span></a>
+                        <p class="text-muted mt-3 mb-1"><small>It's free and quite stable, but please be advised that we take no responsibilty for lost data at this point.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <section>
+        <h2 class="mt-5 pt-5">You can access ablator from your App</h2>
         <p class="lead">Either use these libraries, or make a simple web request.</p>
 
         <div class="row">
@@ -177,7 +224,7 @@
 
 
     <footer class="footer text-center">
-        ablator is created by Daniel Jilg and distributed under the MIT License. See <a
+        ablator is created by Daniel Jilg and distributed under the BSD 3 Clause License. See <a
             href="https://github.com/ablator/ablator/">ablator on GitHub</a> for more info. The 
         ablator Logo was created by the awesome <a href="https://twitter.com/nemosart">@nemosart</a>.
     </footer>
