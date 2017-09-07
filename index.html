@@ -130,10 +130,11 @@
         <div class="row">
             <div class="col-md-6">
                 <p>
-                    <strong>Ablator is in an extenden Beta period where the service is fully usable, but the
-                    UI is a bit rough around the edges.</strong> To iron everything out, and to let you
-                    <a href="http://ablator.space/">fearlessly try it without any commitment</a>, you can use the hosted version of
-                    ablator completely free of charge.
+                    <strong>Ablator is in an extenden Beta period where the service is fully usable,
+                        but the UI is a bit rough around the edges.</strong> To iron everything out,
+                    and to let you <a href="http://ablator.space/">fearlessly try it without any
+                    commitment</a>, you can use the hosted version of ablator completely free of
+                    charge.
                 </p>
                 <p>
                     The software will always be open-source, and you will always be able to
@@ -151,10 +152,16 @@
                         <p class="card-text">
                             The hosted version of ablator is at <a href="http://ablator.space"
                                                                    class="text-white">ablator.space</a>!
-                            You should try it out and then tell us how you like it! Your feedback is awesome!
+                            You should try it out and then tell us how you like it! Your feedback is
+                            awesome!
                         </p>
-                        <a href="http://ablator.space/" class="btn btn-primary">Register at ablator.space <span class="badge badge-success">BETA</span></a>
-                        <p class="text-muted mt-3 mb-1"><small>It's free and quite stable, but please be advised that we take no responsibilty for lost data at this point.</small></p>
+                        <a href="http://ablator.space/" class="btn btn-primary">Register at
+                            ablator.space <span class="badge badge-success">BETA</span></a>
+                        <p class="text-muted mt-3 mb-1">
+                            <small>It's free and quite stable, but please be advised that we take no
+                                responsibilty for lost data at this point.
+                            </small>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -166,42 +173,67 @@
         <h2 class="mt-5 pt-5">You can access ablator from your App</h2>
         <p class="lead">Either use these libraries, or make a simple web request.</p>
 
-        <div class="row">
-            <div class="col-md-4">
-                <h4>Python Library</h4>
-                <p>
-                    The Python library for ablator is called <a
-                        href="https://github.com/ablator/karman">karman</a> and is available on
-                    GitHub. It is in early beta and feature-complete.
-                </p>
-                <p>
-                    <a href="https://github.com/ablator/karman" class="btn btn-outline-secondary">Karman
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+
+                    <img class="card-img-top" src="img/python-logo.png"/>
+                    <h4 card-title>Python Library</h4>
+
+                    <p class="card-text">
+                        The Python library for ablator is called <a
+                            href="https://github.com/ablator/karman">karman</a> and is available
+                        on
+                        GitHub. It is in early beta and feature-complete.
+                    </p>
+
+                </div>
+                <div class="card-footer">
+                    <a href="https://github.com/ablator/karman"
+                       class="btn btn-outline-secondary btn-block">Karman
                         on GitHub</a>
-                </p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4>Swift Library</h4>
-                <p>The Swift framework for ablator is called <a
-                        href="https://github.com/ablator/shepard">shepard</a>. Star ★ it
-                    on GitHub now, so you can follow along its development!
-                </p>
-                <p>
-                    <a href="https://github.com/ablator/shepard" class="btn btn-outline-secondary">Shepard
-                        on GitHub</a>
-                </p>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="text-center mb-4 mt-2">
+                <img style="max-height: 4rem;" src="img/swift-logo.png"/>
             </div>
-            <div class="col-md-4">
-                <h4>Roll Your Own</h4>
-                <p>
-                    Accessing the ablator API is a simple <code>GET</code> request to your server's <code>/which/feature_id/</code> path. Check out the
-                    <a href="https://github.com/ablator/ablator/blob/master/README.rst#accessing-the-ablator-api">Readme</a>
-                    for more info!
-                </p>
-                <p>
-                    <a href="https://github.com/ablator/ablator" class="btn btn-outline-secondary">Ablator
-                        on GitHub</a>
-                </p>
-            </div>
+            <h4 class="card-title">Swift Library</h4>
+
+            <p class="card-text">The Swift framework for ablator is called <a
+                    href="https://github.com/ablator/shepard">shepard</a>. Star ★ it
+                on GitHub now, so you can follow along its development!
+            </p>
+        </div>
+        <div class="card-footer">
+            <a href="https://github.com/ablator/shepard"
+               class="btn btn-outline-secondary btn-block">Shepard
+                on GitHub</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img class="card-img-top" src="img/curl-logo.png"/>
+
+        <div class="card-body">
+            <h4 class="card-title">Roll Your Own</h4>
+
+            <p class="card-text">
+                Accessing the ablator API is a simple <code>GET</code> request to the server's
+                <code>/which/feature_id/</code> path. Check out the
+                <a href="https://github.com/ablator/ablator/blob/master/README.rst#accessing-the-ablator-api">Readme</a>
+                for more info!
+            </p>
+        </div>
+
+        <div class="card-footer">
+            <a href="https://github.com/ablator/ablator"
+               class="btn btn-outline-secondary btn-block">Ablator
+                on GitHub</a>
+        </div>
+    </div>
         </div>
     </section>
 
