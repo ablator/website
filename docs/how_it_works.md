@@ -38,7 +38,14 @@ A Functionality has one or more *Flavors*. Flavors are used to enable A/B-testin
 Once you have defined one or more Functionalities, it's time to include Ablator into your app. 
 
 ## Step 2: Integrate Ablator in Your Code
+There are a number of libraries available to include Ablator into your code:
 
+- For Python, there's [Karman](https://github.com/ablator/karman)
+- For Swift, there's [Shepard](https://github.com/ablator/shepard)
+- For NodeJS and TypeScript, there's [Herschel](https://github.com/ablator/herschel)
+- You can also just make a simple web request to Ablator's API.
+
+Whichever is the right way for you, once you want to 
 ----
 
 - include an ablator client in your app
