@@ -118,65 +118,57 @@ layout: default
 
     <div class="card-deck">
         <div class="card">
-            <div class="card-body">
-
-                <img class="card-img-top" src="img/python-logo.png"/>
-                <h4 card-title>Python Library</h4>
-
-                <p class="card-text">
-                    The Python library for ablator is called <a
-                        href="https://github.com/ablator/karman">karman</a> and is available
-                    on
-                    GitHub. It is in early beta and feature-complete.
-                </p>
-
+            <div class="card-body mb-0">
+                <img class="img-fluid" src="img/python-logo.png"/>
             </div>
             <div class="card-footer">
+            <h4 class="card-title">Python Library</h4>
                 <a href="https://github.com/ablator/karman"
                    class="btn btn-outline-secondary btn-block">Karman
                     on GitHub</a>
             </div>
         </div>
+        
 
 <div class="card">
     <div class="card-body">
-        <div class="text-center mb-4 mt-2">
-            <img style="max-height: 4rem;" src="img/swift-logo.png"/>
+        <div class="text-center">
+            <img style="max-height: 3.5rem;" src="img/swift-logo.png"/>
         </div>
-        <h4 class="card-title">Swift Library</h4>
-
-        <p class="card-text">The Swift framework for ablator is called <a
-                href="https://github.com/ablator/shepard">shepard</a>. Star ★ it
-            on GitHub now, so you can follow along its development!
-        </p>
     </div>
     <div class="card-footer">
+        <h4 class="card-title">Swift Library</h4>
         <a href="https://github.com/ablator/shepard"
            class="btn btn-outline-secondary btn-block">Shepard
             on GitHub</a>
     </div>
 </div>
 
-<div class="card">
-    <img class="card-img-top" src="img/curl-logo.png"/>
-
+        <div class="card">
+        <div class="text-center mt-4">
+            <img style="max-height: 4rem;" src="img/nodejs-logo.svg"/>
+        </div>
+        
     <div class="card-body">
-        <h4 class="card-title">Roll Your Own</h4>
-
-        <p class="card-text">
-            Accessing the ablator API is a simple <code>GET</code> request to the server's
-            <code>/which/feature_id/</code> path. Check out the
-            <a href="https://github.com/ablator/ablator/blob/master/README.rst#accessing-the-ablator-api">Readme</a>
-            for more info!
-        </p>
     </div>
+            <div class="card-footer">
+                <h4 class="card-title">NodeJS Library</h4>
+                <a href="https://github.com/ablator/herschel"
+                   class="btn btn-outline-secondary btn-block">Herschel
+                    on GitHub</a>
+            </div>
+        </div>
 
-    <div class="card-footer">
-        <a href="https://github.com/ablator/ablator"
-           class="btn btn-outline-secondary btn-block">Ablator
-            on GitHub</a>
-    </div>
-</div>
+    <div class="card">
+                <img class="card-img-top" src="img/curl-logo.png"/>
+                <div class="card-body"></div>
+            <div class="card-footer">
+            <h4 class="card-title">Roll Your Own</h4>
+                <a href="https://github.com/ablator/ablator"
+                   class="btn btn-outline-secondary btn-block">Ablator
+                    on GitHub</a>
+            </div>
+        </div>
     </div>
 </section>
 
