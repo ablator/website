@@ -70,9 +70,11 @@ Construct your application in way that you can easily gate your functionality wi
 
 ## Step 3: Roll Out and Manage Your Features
 
-Now your app is ready. Next up is to configure the functinality in ablator. For this, you'll need a roll-out strategy, a release, and at least one Flavor.
+Now your app is ready. Next up is to configure the functionality in ablator. For this, you'll need a roll-out strategy, a release, and at least one Flavor.
 
-### Create or Edit a Release
+By default, the roll out strategy for new Functionalities is "Controlled By Release". If you click on the name of the roll out strategy, you can change it to "Globally Enabled", "Cancelled", which revokes the functionality for evey user, and "Rollout Paused", which stops handing out the functionality to new users, but lets users who already gained the functionality keep uing it.
+
+
 
 ### Watch Your Feature Roll Out
 
