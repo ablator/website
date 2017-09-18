@@ -66,19 +66,15 @@ Construct your application in way that you can easily gate your functionality wi
     else:
         functionality_button.hide()
 
-----
+## Step 3: Roll Out and Manage Your Features
 
-- include an ablator client in your app
-	- define a user string
-		- it gets hashed on the server before storing
-	- on startup, or periodically, request the list of active features or flavours
-	- write your features in a way that you can easily switch them on and off using an `if` or `switch` statement
-	- use the `caniuse` or `which` method to detect wether to show the feature or not, and which flavor 
-- Roll out and manage your features
-	- Select a Roll out Strategy
-	- Create or Edit a Release
-	- Watch your feature roll out
+### Select a Roll Out Strategy
 
+### Create or Edit a Release
+
+### Watch Your Feature Roll Out
+
+---
 
 ## Further Reading
 - Concepts of Ablator
