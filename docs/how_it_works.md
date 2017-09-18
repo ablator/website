@@ -61,7 +61,7 @@ Now it's time to request your app's available functionalities from the server. U
 
 Construct your application in way that you can easily gate your functionality with a few if statements like:
 
-{% highlight python %}
+{% highlight python3 %}
     if (caniuse(my_app.my_functionality)):
         funtionality_button.show()
     else:
