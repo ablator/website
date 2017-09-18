@@ -45,7 +45,27 @@ There are a number of libraries available to include Ablator into your code:
 - For NodeJS and TypeScript, there's [Herschel](https://github.com/ablator/herschel)
 - You can also just make a simple web request to Ablator's API.
 
-Whichever is the right way for you, once you want to 
+To use ablator, you need a **string that uniquely identifies your user**. This can be 
+
+- The user's email address
+- The user's username
+- The device's MAC address
+- The device's unique identifier
+- or some other combination thereof
+
+Ablator does not save these strings directly. Instead, they are salted and hashed (using SHA256) and only the hashed result is saved to the data base. 
+
+You also need the **unique ID of your app in ablator**. You'll get that by visiting your app's detail page and copy and paste it into your code. 
+
+Now it's time to request your app's available functionalities from the server. Use your client's `which` function to do that. With most available clients, the list will be cached, so you can then use `caniuse(functionality_string)` or `which(functionality_string)` and get an instant answer.
+
+Construct your application in way that you can easily gate your functionality with a few if statements like:
+
+    if (caniuse(my_app.my_functionality)):
+        funtionality_button.show()
+    else:
+        functionality_button.hide()
+
 ----
 
 - include an ablator client in your app
