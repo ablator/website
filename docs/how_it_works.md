@@ -61,21 +61,19 @@ Now it's time to request your app's available functionalities from the server. U
 
 Construct your application in way that you can easily gate your functionality with a few if statements like:
 
+{% highlight python %}
     if (caniuse(my_app.my_functionality)):
         funtionality_button.show()
     else:
         functionality_button.hide()
+{% endhighlight %}
 
 ## Step 3: Roll Out and Manage Your Features
 
-### Select a Roll Out Strategy
+Now your app is ready. Next up is to configure the functinality in ablator. For this, you'll need a roll-out strategy, a release, and at least one Flavor.
 
 ### Create or Edit a Release
 
 ### Watch Your Feature Roll Out
 
 ---
-
-## Further Reading
-- Concepts of Ablator
-- Tutorials
